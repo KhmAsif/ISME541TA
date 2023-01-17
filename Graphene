@@ -1,0 +1,25 @@
+nZero = 1
+nOne = complex(2.6, -1.3)
+nTwo = 1.47
+nThree = complex(5.6, -0.4)
+dOne = 0.34
+
+rOne = (nZero - nOne) / (nZero + nOne)
+rTwo = (nOne - nTwo) / (nOne + nTwo)
+rThree = (nTwo - nThree) / (nTwo + nThree)
+
+lamOne, lamTwo = 400, 750
+lambdaVal = [i for i in range (lamOne, lamTwo, 30)]
+
+dTwo1, dTwo2 = 0, 350
+dTwoVal = [i for i in range (dTwo1, dTwo2, 30)]
+
+# print(dTwoVal)
+
+phiOneBeforeDivision = 2 * math.pi * nOne * dOne #integer val
+# phiTwoBeforeDivision = [i for i in range(2 * math.pi * nTwo * dTwoVal[i])] #series of val
+
+
+# phiOne = [i for i in range(phiOneBeforeDivision/lambdaVal[i])]
+# phiTwo = [i for i in range(phiTwoBeforeDivision/lambdaVal[i])]
+# phiSum = phiOne + phiTwo
